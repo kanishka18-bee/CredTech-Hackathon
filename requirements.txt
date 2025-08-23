@@ -1,0 +1,8 @@
+streamlit
+plotly
+pandas
+numpy
+tensorflow
+newsapi-python
+shap
+scikit-learn
