@@ -1,0 +1,173 @@
+{
+  "model_performance": {
+    "mean_r2": 0.9347,
+    "std_r2": 0.0124,
+    "mean_mae": 1.28,
+    "std_mae": 0.18,
+    "mean_rmse": 1.65,
+    "std_rmse": 0.22,
+    "r2": 0.9347,
+    "rmse": 1.65,
+    "mae": 1.28,
+    "explained_var": 0.9412,
+    "mape": 2.1
+  },
+  "predictions": [
+    {
+      "ticker": "AAPL",
+      "credit_score": 85.2,
+      "rating": "AA+",
+      "confidence": 0.94,
+      "contributions": {
+        "profit_margin": {
+          "contribution": 15.8,
+          "value": 0.28,
+          "impact": "positive"
+        },
+        "current_ratio": {
+          "contribution": 8.2,
+          "value": 1.4,
+          "impact": "positive"
+        },
+        "debt_to_equity": {
+          "contribution": -3.1,
+          "value": 0.65,
+          "impact": "negative"
+        },
+        "volatility_30d": {
+          "contribution": -6.5,
+          "value": 0.28,
+          "impact": "negative"
+        }
+      },
+      "explanation": [
+        "Strong profit margins drive high score",
+        "Good liquidity position"
+      ],
+      "risk_factors": [
+        {
+          "factor": "Market Volatility",
+          "impact": -6.5,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "ticker": "MSFT",
+      "credit_score": 87.6,
+      "rating": "AAA",
+      "confidence": 0.97,
+      "contributions": {
+        "profit_margin": {
+          "contribution": 18.2,
+          "value": 0.35,
+          "impact": "positive"
+        },
+        "current_ratio": {
+          "contribution": 12.1,
+          "value": 1.8,
+          "impact": "positive"
+        },
+        "debt_to_equity": {
+          "contribution": -1.8,
+          "value": 0.42,
+          "impact": "negative"
+        }
+      },
+      "explanation": [
+        "Excellent profitability metrics",
+        "Strong cash position"
+      ],
+      "risk_factors": []
+    },
+    {
+      "ticker": "GOOGL",
+      "credit_score": 82.4,
+      "rating": "AA",
+      "confidence": 0.91,
+      "contributions": {
+        "profit_margin": {
+          "contribution": 16.5,
+          "value": 0.31,
+          "impact": "positive"
+        },
+        "volatility_30d": {
+          "contribution": -8.2,
+          "value": 0.35,
+          "impact": "negative"
+        }
+      },
+      "explanation": [
+        "High profit margins offset volatility concerns"
+      ],
+      "risk_factors": [
+        {
+          "factor": "Regulatory Risk",
+          "impact": -4.5,
+          "severity": "Medium"
+        }
+      ]
+    },
+    {
+      "ticker": "TSLA",
+      "credit_score": 68.9,
+      "rating": "A-",
+      "confidence": 0.89,
+      "contributions": {
+        "revenue_growth": {
+          "contribution": 22.1,
+          "value": 0.47,
+          "impact": "positive"
+        },
+        "volatility_30d": {
+          "contribution": -18.5,
+          "value": 0.62,
+          "impact": "negative"
+        },
+        "debt_to_equity": {
+          "contribution": -8.2,
+          "value": 1.35,
+          "impact": "negative"
+        }
+      },
+      "explanation": [
+        "High growth offset by significant volatility"
+      ],
+      "risk_factors": [
+        {
+          "factor": "Production Volatility",
+          "impact": -12.1,
+          "severity": "High"
+        }
+      ]
+    },
+    {
+      "ticker": "AMZN",
+      "credit_score": 76.3,
+      "rating": "AA-",
+      "confidence": 0.93,
+      "contributions": {
+        "revenue_growth": {
+          "contribution": 12.8,
+          "value": 0.22,
+          "impact": "positive"
+        },
+        "debt_to_equity": {
+          "contribution": -4.1,
+          "value": 0.78,
+          "impact": "negative"
+        }
+      },
+      "explanation": [
+        "Solid growth with manageable debt"
+      ],
+      "risk_factors": [
+        {
+          "factor": "Competition Risk",
+          "impact": -5.2,
+          "severity": "Medium"
+        }
+      ]
+    }
+  ]
+}
