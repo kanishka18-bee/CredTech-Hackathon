@@ -1,20 +1,20 @@
 {
   "model_performance": {
-    "mae": 2.0006317489771788,
-    "mse": 6.592909618073706,
-    "rmse": 2.5676661811991264,
-    "r2": 0.9893955390520679,
-    "explained_var": 0.9917507732646257,
-    "mape": 3.3953097443022577,
-    "max_error": 4.40140233972285,
-    "median_error": 1.6504192775889575
+    "mae": 3.3733584342413163,
+    "mse": 17.020783862703617,
+    "rmse": 4.12562526930205,
+    "r2": 0.9256752454654325,
+    "explained_var": 0.9680013156094746,
+    "mape": 11.621803274269515,
+    "max_error": 6.766796556828922,
+    "median_error": 2.614302855713717
   },
   "predictions": [
     {
       "ticker": "AAPL",
-      "credit_score": 21.99,
-      "rating": "BB",
-      "confidence": 0.8897094984502403,
+      "credit_score": 47.06,
+      "rating": "BBB",
+      "confidence": 0.9068792158070764,
       "contributions": {
         "debt_to_equity": {
           "value": 1.54486,
@@ -57,13 +57,13 @@
           "impact": "negative"
         },
         "pe_ratio": {
-          "value": 27.56527,
-          "contribution": -55.13054,
+          "value": 27.40794,
+          "contribution": -54.81588,
           "impact": "negative"
         },
         "pb_ratio": {
-          "value": 51.696545,
-          "contribution": 51.696545,
+          "value": 51.401485,
+          "contribution": 51.401485,
           "impact": "positive"
         },
         "roe": {
@@ -77,76 +77,76 @@
           "impact": "positive"
         },
         "volatility_30d": {
-          "value": 0.25878656080804613,
-          "contribution": -3.881798412120692,
+          "value": 0.25623834449002136,
+          "contribution": -3.8435751673503207,
           "impact": "negative"
         },
         "volatility_90d": {
-          "value": 0.22860843897601482,
-          "contribution": 0.22860843897601482,
+          "value": 0.21926616654877434,
+          "contribution": 0.21926616654877434,
           "impact": "positive"
         },
         "price_change_30d": {
-          "value": 0.0993192972112209,
-          "contribution": 0.0993192972112209,
+          "value": 0.0929847873789571,
+          "contribution": 0.0929847873789571,
           "impact": "positive"
         },
         "price_change_90d": {
-          "value": 0.1389550660481471,
-          "contribution": 0.1389550660481471,
+          "value": 0.16770867331085082,
+          "contribution": 0.16770867331085082,
           "impact": "positive"
         },
         "volume_trend": {
-          "value": 0.8804381960558597,
-          "contribution": 0.8804381960558597,
+          "value": 0.9207709183909577,
+          "contribution": 0.9207709183909577,
           "impact": "positive"
         },
         "rsi": {
-          "value": 78.03270632063294,
-          "contribution": 78.03270632063294,
+          "value": 77.39889363161122,
+          "contribution": 77.39889363161122,
           "impact": "positive"
         },
         "price_to_sma_20": {
-          "value": 1.0396672959280413,
-          "contribution": 1.0396672959280413,
+          "value": 1.0339862328451535,
+          "contribution": 1.0339862328451535,
           "impact": "positive"
         },
         "price_to_sma_50": {
-          "value": 1.080168499006627,
-          "contribution": 1.080168499006627,
+          "value": 1.074078044764156,
+          "contribution": 1.074078044764156,
           "impact": "positive"
         },
         "sentiment_score": {
-          "value": -0.7533075352562459,
-          "contribution": -3.7665376762812297,
+          "value": -0.2161255434147269,
+          "contribution": -1.0806277170736345,
           "impact": "negative"
         },
         "sentiment_trend": {
-          "value": 0.2664853354564891,
-          "contribution": 0.2664853354564891,
+          "value": 0.912525303093402,
+          "contribution": 0.912525303093402,
           "impact": "positive"
         },
         "event_impact": {
-          "value": -0.1724792574673295,
-          "contribution": -0.1724792574673295,
-          "impact": "negative"
+          "value": 0.3267504447943007,
+          "contribution": 0.3267504447943007,
+          "impact": "positive"
         },
         "news_volume": {
-          "value": 16.0,
-          "contribution": 32.0,
+          "value": 15.0,
+          "contribution": 30.0,
           "impact": "positive"
         }
       },
       "explanation": [
-        "Rsi improved score by 78.0 points",
-        "Pe Ratio weakened score by 55.1 points",
-        "Pb Ratio improved score by 51.7 points",
-        "News Volume improved score by 32.0 points"
+        "Rsi improved score by 77.4 points",
+        "Pe Ratio weakened score by 54.8 points",
+        "Pb Ratio improved score by 51.4 points",
+        "News Volume improved score by 30.0 points"
       ],
       "risk_factors": [
         {
           "factor": "Pe Ratio",
-          "impact": -55.13054,
+          "impact": -54.81588,
           "severity": "High"
         },
         {
@@ -156,36 +156,36 @@
         },
         {
           "factor": "Volatility 30D",
-          "impact": -3.881798412120692,
+          "impact": -3.8435751673503207,
           "severity": "Medium"
         }
       ],
       "news_events": [
         {
-          "title": "AAPL faces operational",
-          "impact": -0.07296315112942375,
+          "title": "AAPL faces earnings",
+          "impact": -0.8060205562699863,
           "category": "earnings",
-          "date": "2025-08-18T17:26:21.851139"
+          "date": "2025-08-17T08:51:36.283098"
         },
         {
-          "title": "AAPL announces regulatory",
-          "impact": 0.8754769994499867,
-          "category": "operational",
-          "date": "2025-08-19T17:26:21.851225"
+          "title": "AAPL faces earnings",
+          "impact": -0.8118258389834065,
+          "category": "regulatory",
+          "date": "2025-08-20T08:51:36.283187"
         },
         {
-          "title": "AAPL faces regulatory",
-          "impact": 0.9698346545585506,
-          "category": "partnership",
-          "date": "2025-08-20T17:26:21.851285"
+          "title": "AAPL announces market",
+          "impact": 0.012594448185362372,
+          "category": "market",
+          "date": "2025-08-19T08:51:36.283290"
         }
       ]
     },
     {
       "ticker": "MSFT",
-      "credit_score": 81.45,
+      "credit_score": 84.82,
       "rating": "AA+",
-      "confidence": 0.9371846299200556,
+      "confidence": 0.9101257147409549,
       "contributions": {
         "debt_to_equity": {
           "value": 0.32661,
@@ -228,13 +228,13 @@
           "impact": "negative"
         },
         "pe_ratio": {
-          "value": 33.97057,
-          "contribution": -67.94114,
+          "value": 33.92843,
+          "contribution": -67.85686,
           "impact": "negative"
         },
         "pb_ratio": {
-          "value": 10.991689,
-          "contribution": 10.991689,
+          "value": 10.978054,
+          "contribution": 10.978054,
           "impact": "positive"
         },
         "roe": {
@@ -248,76 +248,76 @@
           "impact": "positive"
         },
         "volatility_30d": {
-          "value": 0.18476157962782191,
-          "contribution": -2.7714236944173285,
+          "value": 0.18439948686456964,
+          "contribution": -2.7659923029685447,
           "impact": "negative"
         },
         "volatility_90d": {
-          "value": 0.15809395605125504,
-          "contribution": 0.15809395605125504,
+          "value": 0.15729103743935782,
+          "contribution": 0.15729103743935782,
           "impact": "positive"
         },
         "price_change_30d": {
-          "value": 0.011281602405750046,
-          "contribution": 0.011281602405750046,
+          "value": 0.010027159244397676,
+          "contribution": 0.010027159244397676,
           "impact": "positive"
         },
         "price_change_90d": {
-          "value": 0.11835482806566233,
-          "contribution": 0.11835482806566233,
+          "value": 0.1285793419671022,
+          "contribution": 0.1285793419671022,
           "impact": "positive"
         },
         "volume_trend": {
-          "value": 1.1104315804728428,
-          "contribution": 1.1104315804728428,
+          "value": 1.1833675663125938,
+          "contribution": 1.1833675663125938,
           "impact": "positive"
         },
         "rsi": {
-          "value": 29.91948129927728,
-          "contribution": 29.91948129927728,
+          "value": 28.9748965585687,
+          "contribution": 28.9748965585687,
           "impact": "positive"
         },
         "price_to_sma_20": {
-          "value": 0.9794154537013602,
-          "contribution": 0.9794154537013602,
+          "value": 0.9782599639964193,
+          "contribution": 0.9782599639964193,
           "impact": "positive"
         },
         "price_to_sma_50": {
-          "value": 1.0060342592060483,
-          "contribution": 1.0060342592060483,
+          "value": 1.0048114038741514,
+          "contribution": 1.0048114038741514,
           "impact": "positive"
         },
         "sentiment_score": {
-          "value": -0.6455826187542169,
-          "contribution": -3.2279130937710843,
-          "impact": "negative"
-        },
-        "sentiment_trend": {
-          "value": -0.1343764321814651,
-          "contribution": -0.1343764321814651,
-          "impact": "negative"
-        },
-        "event_impact": {
-          "value": 0.4115907738855159,
-          "contribution": 0.4115907738855159,
+          "value": 0.6630128678569243,
+          "contribution": 3.3150643392846213,
           "impact": "positive"
         },
+        "sentiment_trend": {
+          "value": 0.41821580593664454,
+          "contribution": 0.41821580593664454,
+          "impact": "positive"
+        },
+        "event_impact": {
+          "value": -0.45102869974653914,
+          "contribution": -0.45102869974653914,
+          "impact": "negative"
+        },
         "news_volume": {
-          "value": 6.0,
-          "contribution": 12.0,
+          "value": 7.0,
+          "contribution": 14.0,
           "impact": "positive"
         }
       },
       "explanation": [
         "Pe Ratio weakened score by 67.9 points",
-        "Rsi improved score by 29.9 points",
+        "Rsi improved score by 29.0 points",
         "Current Ratio improved score by 16.2 points",
-        "News Volume improved score by 12.0 points"
+        "News Volume improved score by 14.0 points"
       ],
       "risk_factors": [
         {
           "factor": "Pe Ratio",
-          "impact": -67.94114,
+          "impact": -67.85686,
           "severity": "High"
         },
         {
@@ -326,25 +326,25 @@
           "severity": "Medium"
         },
         {
-          "factor": "Sentiment Score",
-          "impact": -3.2279130937710843,
+          "factor": "Beta",
+          "impact": -3.165,
           "severity": "Medium"
         }
       ],
       "news_events": [
         {
-          "title": "MSFT expands operational",
-          "impact": 0.7853291461080312,
+          "title": "MSFT reports strong market",
+          "impact": -0.1522363698729312,
           "category": "earnings",
-          "date": "2025-08-19T17:26:22.186321"
+          "date": "2025-08-19T08:51:36.650941"
         }
       ]
     },
     {
       "ticker": "GOOGL",
-      "credit_score": 69.47,
-      "rating": "A+",
-      "confidence": 0.8619535706619533,
+      "credit_score": 51.81,
+      "rating": "BBB+",
+      "confidence": 0.8806183232544994,
       "contributions": {
         "debt_to_equity": {
           "value": 0.11481,
@@ -387,13 +387,13 @@
           "impact": "negative"
         },
         "pe_ratio": {
-          "value": 23.065847,
-          "contribution": -46.131694,
+          "value": 23.001116,
+          "contribution": -46.002232,
           "impact": "negative"
         },
         "pb_ratio": {
-          "value": 6.892906,
-          "contribution": 6.892906,
+          "value": 6.8735614,
+          "contribution": 6.8735614,
           "impact": "positive"
         },
         "roe": {
@@ -407,115 +407,103 @@
           "impact": "positive"
         },
         "volatility_30d": {
-          "value": 0.20477834580606888,
-          "contribution": -3.0716751870910333,
+          "value": 0.20154874031749426,
+          "contribution": -3.023231104762414,
           "impact": "negative"
         },
         "volatility_90d": {
-          "value": 0.23039427122578315,
-          "contribution": 0.23039427122578315,
+          "value": 0.22816905799609563,
+          "contribution": 0.22816905799609563,
           "impact": "positive"
         },
         "price_change_30d": {
-          "value": 0.13802598532480315,
-          "contribution": 0.13802598532480315,
+          "value": 0.13510684682280005,
+          "contribution": 0.13510684682280005,
           "impact": "positive"
         },
         "price_change_90d": {
-          "value": 0.21068727024203637,
-          "contribution": 0.21068727024203637,
+          "value": 0.2247847653593289,
+          "contribution": 0.2247847653593289,
           "impact": "positive"
         },
         "volume_trend": {
-          "value": 0.6300036814899252,
-          "contribution": 0.6300036814899252,
+          "value": 0.748715441429818,
+          "contribution": 0.748715441429818,
           "impact": "positive"
         },
         "rsi": {
-          "value": 74.18054070943954,
-          "contribution": 74.18054070943954,
+          "value": 73.61460555817442,
+          "contribution": 73.61460555817442,
           "impact": "positive"
         },
         "price_to_sma_20": {
-          "value": 1.039982057166615,
-          "contribution": 1.039982057166615,
+          "value": 1.0374527880085105,
+          "contribution": 1.0374527880085105,
           "impact": "positive"
         },
         "price_to_sma_50": {
-          "value": 1.1061856673541621,
-          "contribution": 1.1061856673541621,
+          "value": 1.1034108199142274,
+          "contribution": 1.1034108199142274,
           "impact": "positive"
         },
         "sentiment_score": {
-          "value": -1.351109453468478,
-          "contribution": -6.75554726734239,
+          "value": -1.8511653846486333,
+          "contribution": -9.255826923243166,
           "impact": "negative"
         },
         "sentiment_trend": {
-          "value": -0.9871621029570794,
-          "contribution": -0.9871621029570794,
+          "value": -0.38544756234808064,
+          "contribution": -0.38544756234808064,
           "impact": "negative"
         },
         "event_impact": {
-          "value": 0.14355336088393622,
-          "contribution": 0.14355336088393622,
-          "impact": "positive"
+          "value": -0.2627259943493876,
+          "contribution": -0.2627259943493876,
+          "impact": "negative"
         },
         "news_volume": {
-          "value": 20.0,
-          "contribution": 40.0,
+          "value": 8.0,
+          "contribution": 16.0,
           "impact": "positive"
         }
       },
       "explanation": [
-        "Rsi improved score by 74.2 points",
-        "Pe Ratio weakened score by 46.1 points",
-        "News Volume improved score by 40.0 points",
-        "Current Ratio improved score by 22.8 points"
+        "Rsi improved score by 73.6 points",
+        "Pe Ratio weakened score by 46.0 points",
+        "Current Ratio improved score by 22.8 points",
+        "News Volume improved score by 16.0 points"
       ],
       "risk_factors": [
         {
           "factor": "Pe Ratio",
-          "impact": -46.131694,
+          "impact": -46.002232,
           "severity": "High"
         },
         {
           "factor": "Sentiment Score",
-          "impact": -6.75554726734239,
+          "impact": -9.255826923243166,
           "severity": "High"
         },
         {
-          "factor": "Volatility 30D",
-          "impact": -3.0716751870910333,
+          "factor": "Beta",
+          "impact": -3.042,
           "severity": "Medium"
         }
       ],
       "news_events": [
         {
-          "title": "GOOGL announces partnership",
-          "impact": -0.35852507937303457,
-          "category": "partnership",
-          "date": "2025-08-19T17:26:22.519119"
-        },
-        {
-          "title": "GOOGL reports strong operational",
-          "impact": -0.3760900482254139,
-          "category": "partnership",
-          "date": "2025-08-17T17:26:22.519197"
-        },
-        {
           "title": "GOOGL faces market",
-          "impact": -0.8477514356659535,
-          "category": "earnings",
-          "date": "2025-08-17T17:26:22.519256"
+          "impact": 0.34131804294273405,
+          "category": "partnership",
+          "date": "2025-08-18T08:51:36.945166"
         }
       ]
     },
     {
       "ticker": "TSLA",
-      "credit_score": 89.03,
-      "rating": "AAA",
-      "confidence": 0.8699946690142865,
+      "credit_score": 61.82,
+      "rating": "A",
+      "confidence": 0.8942385553275692,
       "contributions": {
         "debt_to_equity": {
           "value": 0.16823,
@@ -558,13 +546,13 @@
           "impact": "negative"
         },
         "pe_ratio": {
-          "value": 104.30247,
-          "contribution": -208.60494,
+          "value": 104.94136,
+          "contribution": -209.88272,
           "impact": "negative"
         },
         "pb_ratio": {
-          "value": 14.0919895,
-          "contribution": 14.0919895,
+          "value": 14.178308,
+          "contribution": 14.178308,
           "impact": "positive"
         },
         "roe": {
@@ -578,76 +566,76 @@
           "impact": "positive"
         },
         "volatility_30d": {
-          "value": 0.4256297609869946,
-          "contribution": -6.384446414804919,
+          "value": 0.43294262798217237,
+          "contribution": -6.494139419732585,
           "impact": "negative"
         },
         "volatility_90d": {
-          "value": 0.571106942708352,
-          "contribution": 0.571106942708352,
+          "value": 0.5783527184547921,
+          "contribution": 0.5783527184547921,
           "impact": "positive"
         },
         "price_change_30d": {
-          "value": 0.06640582755747948,
-          "contribution": 0.06640582755747948,
+          "value": 0.07292526448166958,
+          "contribution": 0.07292526448166958,
           "impact": "positive"
         },
         "price_change_90d": {
-          "value": -0.009078138116377144,
-          "contribution": -0.009078138116377144,
-          "impact": "negative"
+          "value": 0.0019744605262128623,
+          "contribution": 0.0019744605262128623,
+          "impact": "positive"
         },
         "volume_trend": {
-          "value": 0.6233570392560528,
-          "contribution": 0.6233570392560528,
+          "value": 0.6150417284177795,
+          "contribution": 0.6150417284177795,
           "impact": "positive"
         },
         "rsi": {
-          "value": 68.29151449397168,
-          "contribution": 68.29151449397168,
+          "value": 69.09090435136866,
+          "contribution": 69.09090435136866,
           "impact": "positive"
         },
         "price_to_sma_20": {
-          "value": 1.0400910803814347,
-          "contribution": 1.0400910803814347,
+          "value": 1.0461170529274226,
+          "contribution": 1.0461170529274226,
           "impact": "positive"
         },
         "price_to_sma_50": {
-          "value": 1.0513515469398413,
-          "contribution": 1.0513515469398413,
+          "value": 1.0576429920586212,
+          "contribution": 1.0576429920586212,
           "impact": "positive"
         },
         "sentiment_score": {
-          "value": 1.8446335635064535,
-          "contribution": 9.223167817532268,
+          "value": 1.3150636905042834,
+          "contribution": 6.575318452521417,
           "impact": "positive"
         },
         "sentiment_trend": {
-          "value": 0.17760220402643756,
-          "contribution": 0.17760220402643756,
-          "impact": "positive"
+          "value": -0.2783952296527361,
+          "contribution": -0.2783952296527361,
+          "impact": "negative"
         },
         "event_impact": {
-          "value": -0.05788638214132358,
-          "contribution": -0.05788638214132358,
+          "value": -0.41180287825068296,
+          "contribution": -0.41180287825068296,
           "impact": "negative"
         },
         "news_volume": {
-          "value": 11.0,
-          "contribution": 22.0,
+          "value": 21.0,
+          "contribution": 42.0,
           "impact": "positive"
         }
       },
       "explanation": [
-        "Pe Ratio weakened score by 208.6 points",
-        "Rsi improved score by 68.3 points",
-        "Current Ratio improved score by 24.4 points",
-        "News Volume improved score by 22.0 points"
+        "Pe Ratio weakened score by 209.9 points",
+        "Rsi improved score by 69.1 points",
+        "News Volume improved score by 42.0 points",
+        "Current Ratio improved score by 24.4 points"
       ],
       "risk_factors": [
         {
           "factor": "Pe Ratio",
-          "impact": -208.60494,
+          "impact": -209.88272,
           "severity": "High"
         },
         {
@@ -657,30 +645,36 @@
         },
         {
           "factor": "Volatility 30D",
-          "impact": -6.384446414804919,
+          "impact": -6.494139419732585,
           "severity": "High"
         }
       ],
       "news_events": [
         {
-          "title": "TSLA expands partnership",
-          "impact": 0.03608176664499507,
-          "category": "regulatory",
-          "date": "2025-08-20T17:26:22.878674"
+          "title": "TSLA announces operational",
+          "impact": 0.46403961402284266,
+          "category": "market",
+          "date": "2025-08-18T08:51:37.275379"
         },
         {
-          "title": "TSLA reports strong regulatory",
-          "impact": -0.538118567810256,
+          "title": "TSLA faces partnership",
+          "impact": -0.0956329134688807,
           "category": "market",
-          "date": "2025-08-18T17:26:22.878770"
+          "date": "2025-08-17T08:51:37.275453"
+        },
+        {
+          "title": "TSLA reports strong partnership",
+          "impact": 0.08909577556184001,
+          "category": "market",
+          "date": "2025-08-20T08:51:37.275512"
         }
       ]
     },
     {
       "ticker": "AMZN",
-      "credit_score": 36.35,
+      "credit_score": 25.94,
       "rating": "BB",
-      "confidence": 0.9101249439798235,
+      "confidence": 0.9260238485621516,
       "contributions": {
         "debt_to_equity": {
           "value": 0.47808,
@@ -723,13 +717,13 @@
           "impact": "negative"
         },
         "pe_ratio": {
-          "value": 36.996746,
-          "contribution": -73.993492,
+          "value": 37.209755,
+          "contribution": -74.41951,
           "impact": "negative"
         },
         "pb_ratio": {
-          "value": 7.266775,
-          "contribution": 7.266775,
+          "value": 7.3086133,
+          "contribution": 7.3086133,
           "impact": "positive"
         },
         "roe": {
@@ -743,115 +737,109 @@
           "impact": "positive"
         },
         "volatility_30d": {
-          "value": 0.32797985224463244,
-          "contribution": -4.919697783669487,
+          "value": 0.33223874208918047,
+          "contribution": -4.983581131337707,
           "impact": "negative"
         },
         "volatility_90d": {
-          "value": 0.2734336357089759,
-          "contribution": 0.2734336357089759,
+          "value": 0.27679387328057314,
+          "contribution": 0.27679387328057314,
           "impact": "positive"
         },
         "price_change_30d": {
-          "value": 0.008152759617113814,
-          "contribution": 0.008152759617113814,
+          "value": 0.013957170731575319,
+          "contribution": 0.013957170731575319,
           "impact": "positive"
         },
         "price_change_90d": {
-          "value": 0.12028553393213492,
-          "contribution": 0.12028553393213492,
+          "value": 0.1385640583291281,
+          "contribution": 0.1385640583291281,
           "impact": "positive"
         },
         "volume_trend": {
-          "value": 0.9581886939217634,
-          "contribution": 0.9581886939217634,
+          "value": 1.0018123888713002,
+          "contribution": 1.0018123888713002,
           "impact": "positive"
         },
         "rsi": {
-          "value": 68.86636282807214,
-          "contribution": 68.86636282807214,
+          "value": 69.94447465098007,
+          "contribution": 69.94447465098007,
           "impact": "positive"
         },
         "price_to_sma_20": {
-          "value": 1.0115793888594635,
-          "contribution": 1.0115793888594635,
+          "value": 1.0171073399264745,
+          "contribution": 1.0171073399264745,
           "impact": "positive"
         },
         "price_to_sma_50": {
-          "value": 1.0230269782398036,
-          "contribution": 1.0230269782398036,
+          "value": 1.028795834091323,
+          "contribution": 1.028795834091323,
           "impact": "positive"
         },
         "sentiment_score": {
-          "value": -0.68961386210293,
-          "contribution": -3.44806931051465,
+          "value": -1.5565485152486969,
+          "contribution": -7.782742576243484,
           "impact": "negative"
         },
         "sentiment_trend": {
-          "value": 0.37332695240312885,
-          "contribution": 0.37332695240312885,
-          "impact": "positive"
+          "value": -0.5162877825941923,
+          "contribution": -0.5162877825941923,
+          "impact": "negative"
         },
         "event_impact": {
-          "value": 0.12090558334335477,
-          "contribution": 0.12090558334335477,
+          "value": 0.12610306372283275,
+          "contribution": 0.12610306372283275,
           "impact": "positive"
         },
         "news_volume": {
-          "value": 24.0,
-          "contribution": 48.0,
+          "value": 11.0,
+          "contribution": 22.0,
           "impact": "positive"
         }
       },
       "explanation": [
-        "Pe Ratio weakened score by 74.0 points",
-        "Rsi improved score by 68.9 points",
-        "News Volume improved score by 48.0 points",
+        "Pe Ratio weakened score by 74.4 points",
+        "Rsi improved score by 69.9 points",
+        "News Volume improved score by 22.0 points",
         "Current Ratio improved score by 12.3 points"
       ],
       "risk_factors": [
         {
           "factor": "Pe Ratio",
-          "impact": -73.993492,
+          "impact": -74.41951,
+          "severity": "High"
+        },
+        {
+          "factor": "Sentiment Score",
+          "impact": -7.782742576243484,
           "severity": "High"
         },
         {
           "factor": "Debt To Equity",
           "impact": -7.1712,
           "severity": "High"
-        },
-        {
-          "factor": "Volatility 30D",
-          "impact": -4.919697783669487,
-          "severity": "Medium"
         }
       ],
       "news_events": [
         {
-          "title": "AMZN faces partnership",
-          "impact": 0.4757821334766581,
-          "category": "partnership",
-          "date": "2025-08-17T17:26:23.227227"
-        },
-        {
-          "title": "AMZN announces market",
-          "impact": -0.300085488280168,
-          "category": "operational",
-          "date": "2025-08-21T17:26:23.227306"
-        },
-        {
           "title": "AMZN reports strong partnership",
-          "impact": -0.8682304768680666,
-          "category": "market",
-          "date": "2025-08-19T17:26:23.227364"
+          "impact": -0.6617929604217319,
+          "category": "earnings",
+          "date": "2025-08-19T08:51:37.659761"
+        },
+        {
+          "title": "AMZN faces market",
+          "impact": 0.45156758932464647,
+          "category": "earnings",
+          "date": "2025-08-22T08:51:37.659895"
         }
       ]
     },
     {
       "ticker": "JPM",
-      "credit_score": 55.01,
-      "rating": "A-",
-      "confidence": 0.8877034480231081,
+      "credit_score": 35.98,
+      "rating": "BB",
+      "confidence": 0.8875177540466196,
       "contributions": {
         "debt_to_equity": {
           "value": 0.5,
@@ -894,13 +882,13 @@
           "impact": "negative"
         },
         "pe_ratio": {
-          "value": 17.728167,
-          "contribution": -35.456334,
+          "value": 17.696535,
+          "contribution": -35.39307,
           "impact": "negative"
         },
         "pb_ratio": {
-          "value": 2.422371,
-          "contribution": 2.422371,
+          "value": 2.4180489,
+          "contribution": 2.4180489,
           "impact": "positive"
         },
         "roe": {
@@ -914,76 +902,76 @@
           "impact": "positive"
         },
         "volatility_30d": {
-          "value": 0.1610929821818891,
-          "contribution": -2.4163947327283366,
+          "value": 0.15950533033703448,
+          "contribution": -2.3925799550555173,
           "impact": "negative"
         },
         "volatility_90d": {
-          "value": 0.16934177624541652,
-          "contribution": 0.16934177624541652,
+          "value": 0.17000939949522903,
+          "contribution": 0.17000939949522903,
           "impact": "positive"
         },
         "price_change_30d": {
-          "value": 0.02795111944645101,
-          "contribution": 0.02795111944645101,
+          "value": 0.02611699933679512,
+          "contribution": 0.02611699933679512,
           "impact": "positive"
         },
         "price_change_90d": {
-          "value": 0.14397209541540312,
-          "contribution": 0.14397209541540312,
+          "value": 0.14175582034597567,
+          "contribution": 0.14175582034597567,
           "impact": "positive"
         },
         "volume_trend": {
-          "value": 0.9477093040516877,
-          "contribution": 0.9477093040516877,
+          "value": 0.9932360759610196,
+          "contribution": 0.9932360759610196,
           "impact": "positive"
         },
         "rsi": {
-          "value": 59.14565877007531,
-          "contribution": 59.14565877007531,
+          "value": 58.39944249345225,
+          "contribution": 58.39944249345225,
           "impact": "positive"
         },
         "price_to_sma_20": {
-          "value": 1.0139900076468347,
-          "contribution": 1.0139900076468347,
+          "value": 1.0122723682936723,
+          "contribution": 1.0122723682936723,
           "impact": "positive"
         },
         "price_to_sma_50": {
-          "value": 1.0308745657325595,
-          "contribution": 1.0308745657325595,
+          "value": 1.029073085697527,
+          "contribution": 1.029073085697527,
           "impact": "positive"
         },
         "sentiment_score": {
-          "value": -0.18748906558339495,
-          "contribution": -0.9374453279169748,
+          "value": -1.348574490908463,
+          "contribution": -6.742872454542315,
           "impact": "negative"
         },
         "sentiment_trend": {
-          "value": -0.6672545391587645,
-          "contribution": -0.6672545391587645,
-          "impact": "negative"
+          "value": 0.1067179370072604,
+          "contribution": 0.1067179370072604,
+          "impact": "positive"
         },
         "event_impact": {
-          "value": -0.2589400629014522,
-          "contribution": -0.2589400629014522,
-          "impact": "negative"
+          "value": 0.3871286219363528,
+          "contribution": 0.3871286219363528,
+          "impact": "positive"
         },
         "news_volume": {
-          "value": 10.0,
-          "contribution": 20.0,
+          "value": 23.0,
+          "contribution": 46.0,
           "impact": "positive"
         }
       },
       "explanation": [
-        "Rsi improved score by 59.1 points",
-        "Pe Ratio weakened score by 35.5 points",
-        "News Volume improved score by 20.0 points",
+        "Rsi improved score by 58.4 points",
+        "News Volume improved score by 46.0 points",
+        "Pe Ratio weakened score by 35.4 points",
         "Current Ratio improved score by 18.0 points"
       ],
       "risk_factors": [
         {
           "factor": "Pe Ratio",
-          "impact": -35.456334,
+          "impact": -35.39307,
           "severity": "High"
         },
         {
@@ -992,31 +980,37 @@
           "severity": "High"
         },
         {
-          "factor": "Beta",
-          "impact": -3.3209999999999997,
-          "severity": "Medium"
+          "factor": "Sentiment Score",
+          "impact": -6.742872454542315,
+          "severity": "High"
         }
       ],
       "news_events": [
         {
-          "title": "JPM expands earnings",
-          "impact": 0.6959731490514882,
-          "category": "regulatory",
-          "date": "2025-08-19T17:26:23.568343"
+          "title": "JPM announces earnings",
+          "impact": 0.3426655615193752,
+          "category": "earnings",
+          "date": "2025-08-22T08:51:38.159248"
         },
         {
-          "title": "JPM expands regulatory",
-          "impact": 0.07448804403187292,
-          "category": "earnings",
-          "date": "2025-08-18T17:26:23.568508"
+          "title": "JPM announces operational",
+          "impact": -0.9051024636826397,
+          "category": "operational",
+          "date": "2025-08-20T08:51:38.159372"
+        },
+        {
+          "title": "JPM reports strong partnership",
+          "impact": 0.07532273256382949,
+          "category": "operational",
+          "date": "2025-08-17T08:51:38.159465"
         }
       ]
     },
     {
       "ticker": "BAC",
-      "credit_score": 70.16,
-      "rating": "AA-",
-      "confidence": 0.8577756334131147,
+      "credit_score": 52.17,
+      "rating": "BBB+",
+      "confidence": 0.9290194749176659,
       "contributions": {
         "debt_to_equity": {
           "value": 0.5,
@@ -1059,13 +1053,13 @@
           "impact": "negative"
         },
         "pe_ratio": {
-          "value": 13.530054,
-          "contribution": -27.060108,
+          "value": 13.519125,
+          "contribution": -27.03825,
           "impact": "negative"
         },
         "pb_ratio": {
-          "value": 1.3338002,
-          "contribution": 1.3338002,
+          "value": 1.3327229,
+          "contribution": 1.3327229,
           "impact": "positive"
         },
         "roe": {
@@ -1079,76 +1073,76 @@
           "impact": "positive"
         },
         "volatility_30d": {
-          "value": 0.21987525890637935,
-          "contribution": -3.29812888359569,
+          "value": 0.21909817742602405,
+          "contribution": -3.286472661390361,
           "impact": "negative"
         },
         "volatility_90d": {
-          "value": 0.1959994731950922,
-          "contribution": 0.1959994731950922,
+          "value": 0.1969456516566072,
+          "contribution": 0.1969456516566072,
           "impact": "positive"
         },
         "price_change_30d": {
-          "value": 0.05205015463828122,
-          "contribution": 0.05205015463828122,
+          "value": 0.05120033700950111,
+          "contribution": 0.05120033700950111,
           "impact": "positive"
         },
         "price_change_90d": {
-          "value": 0.15012284548615162,
-          "contribution": 0.15012284548615162,
+          "value": 0.15212000487463628,
+          "contribution": 0.15212000487463628,
           "impact": "positive"
         },
         "volume_trend": {
-          "value": 0.8705349550814142,
-          "contribution": 0.8705349550814142,
+          "value": 0.9111261172412782,
+          "contribution": 0.9111261172412782,
           "impact": "positive"
         },
         "rsi": {
-          "value": 76.47057023578694,
-          "contribution": 76.47057023578694,
+          "value": 76.34406507133072,
+          "contribution": 76.34406507133072,
           "impact": "positive"
         },
         "price_to_sma_20": {
-          "value": 1.0508111520684957,
-          "contribution": 1.0508111520684957,
+          "value": 1.0500068984470117,
+          "contribution": 1.0500068984470117,
           "impact": "positive"
         },
         "price_to_sma_50": {
-          "value": 1.0544740767154503,
-          "contribution": 1.0544740767154503,
+          "value": 1.0536402504093336,
+          "contribution": 1.0536402504093336,
           "impact": "positive"
         },
         "sentiment_score": {
-          "value": 0.6081869936225801,
-          "contribution": 3.0409349681129005,
-          "impact": "positive"
-        },
-        "sentiment_trend": {
-          "value": -0.9489507825223729,
-          "contribution": -0.9489507825223729,
+          "value": -0.08735847849465106,
+          "contribution": -0.4367923924732553,
           "impact": "negative"
         },
+        "sentiment_trend": {
+          "value": 0.044706806854417414,
+          "contribution": 0.044706806854417414,
+          "impact": "positive"
+        },
         "event_impact": {
-          "value": -0.4400576710963825,
-          "contribution": -0.4400576710963825,
+          "value": -0.2042344451099306,
+          "contribution": -0.2042344451099306,
           "impact": "negative"
         },
         "news_volume": {
-          "value": 18.0,
-          "contribution": 36.0,
+          "value": 22.0,
+          "contribution": 44.0,
           "impact": "positive"
         }
       },
       "explanation": [
-        "Rsi improved score by 76.5 points",
-        "News Volume improved score by 36.0 points",
-        "Pe Ratio weakened score by 27.1 points",
+        "Rsi improved score by 76.3 points",
+        "News Volume improved score by 44.0 points",
+        "Pe Ratio weakened score by 27.0 points",
         "Current Ratio improved score by 18.0 points"
       ],
       "risk_factors": [
         {
           "factor": "Pe Ratio",
-          "impact": -27.060108,
+          "impact": -27.03825,
           "severity": "High"
         },
         {
@@ -1164,30 +1158,30 @@
       ],
       "news_events": [
         {
-          "title": "BAC reports strong earnings",
-          "impact": -0.3399541096915113,
-          "category": "operational",
-          "date": "2025-08-20T17:26:23.917555"
+          "title": "BAC expands regulatory",
+          "impact": 0.4356728925248534,
+          "category": "earnings",
+          "date": "2025-08-19T08:51:38.569316"
         },
         {
-          "title": "BAC expands earnings",
-          "impact": -0.413495302847257,
+          "title": "BAC expands partnership",
+          "impact": 0.8583892535078279,
           "category": "regulatory",
-          "date": "2025-08-21T17:26:23.917690"
+          "date": "2025-08-20T08:51:38.569423"
         },
         {
-          "title": "BAC announces market",
-          "impact": 0.46090952690481357,
-          "category": "market",
-          "date": "2025-08-21T17:26:23.917811"
+          "title": "BAC faces operational",
+          "impact": 0.5592631384066091,
+          "category": "partnership",
+          "date": "2025-08-17T08:51:38.569512"
         }
       ]
     },
     {
       "ticker": "WMT",
-      "credit_score": 87.65,
-      "rating": "AAA",
-      "confidence": 0.9391650924249582,
+      "credit_score": 49.3,
+      "rating": "BBB",
+      "confidence": 0.9353752116540222,
       "contributions": {
         "debt_to_equity": {
           "value": 0.67124,
@@ -1230,13 +1224,13 @@
           "impact": "negative"
         },
         "pe_ratio": {
-          "value": 35.762867,
-          "contribution": -71.525734,
+          "value": 35.599266,
+          "contribution": -71.198532,
           "impact": "negative"
         },
         "pb_ratio": {
-          "value": 8.612218,
-          "contribution": 8.612218,
+          "value": 8.57282,
+          "contribution": 8.57282,
           "impact": "positive"
         },
         "roe": {
@@ -1250,76 +1244,76 @@
           "impact": "positive"
         },
         "volatility_30d": {
-          "value": 0.2170080352546615,
-          "contribution": -3.2551205288199228,
+          "value": 0.2188839691160505,
+          "contribution": -3.2832595367407573,
           "impact": "negative"
         },
         "volatility_90d": {
-          "value": 0.1891361046466001,
-          "contribution": 0.1891361046466001,
+          "value": 0.1914413819118723,
+          "contribution": 0.1914413819118723,
           "impact": "positive"
         },
         "price_change_30d": {
-          "value": 0.017980773061623267,
-          "contribution": 0.017980773061623267,
+          "value": 0.013323860943982968,
+          "contribution": 0.013323860943982968,
           "impact": "positive"
         },
         "price_change_90d": {
-          "value": 0.01638901639116863,
-          "contribution": 0.01638901639116863,
+          "value": 0.007433688954451068,
+          "contribution": 0.007433688954451068,
           "impact": "positive"
         },
         "volume_trend": {
-          "value": 1.200485559141617,
-          "contribution": 1.200485559141617,
+          "value": 1.2780206479174083,
+          "contribution": 1.2780206479174083,
           "impact": "positive"
         },
         "rsi": {
-          "value": 44.58087019671166,
-          "contribution": 44.58087019671166,
+          "value": 43.419771206735106,
+          "contribution": 43.419771206735106,
           "impact": "positive"
         },
         "price_to_sma_20": {
-          "value": 0.9703179390180307,
-          "contribution": 0.9703179390180307,
+          "value": 0.9660934862022633,
+          "contribution": 0.9660934862022633,
           "impact": "positive"
         },
         "price_to_sma_50": {
-          "value": 0.99545553175887,
-          "contribution": 0.99545553175887,
+          "value": 0.9909919217832469,
+          "contribution": 0.9909919217832469,
           "impact": "positive"
         },
         "sentiment_score": {
-          "value": 1.58014488182314,
-          "contribution": 7.9007244091157,
+          "value": 0.08791459779336552,
+          "contribution": 0.4395729889668276,
           "impact": "positive"
         },
         "sentiment_trend": {
-          "value": 0.12678725718995332,
-          "contribution": 0.12678725718995332,
+          "value": 0.21200421055228102,
+          "contribution": 0.21200421055228102,
           "impact": "positive"
         },
         "event_impact": {
-          "value": 0.32921361776981917,
-          "contribution": 0.32921361776981917,
-          "impact": "positive"
+          "value": -0.08459235016647826,
+          "contribution": -0.08459235016647826,
+          "impact": "negative"
         },
         "news_volume": {
-          "value": 14.0,
-          "contribution": 28.0,
+          "value": 8.0,
+          "contribution": 16.0,
           "impact": "positive"
         }
       },
       "explanation": [
-        "Pe Ratio weakened score by 71.5 points",
-        "Rsi improved score by 44.6 points",
-        "News Volume improved score by 28.0 points",
+        "Pe Ratio weakened score by 71.2 points",
+        "Rsi improved score by 43.4 points",
+        "News Volume improved score by 16.0 points",
         "Debt To Equity weakened score by 10.1 points"
       ],
       "risk_factors": [
         {
           "factor": "Pe Ratio",
-          "impact": -71.525734,
+          "impact": -71.198532,
           "severity": "High"
         },
         {
@@ -1329,22 +1323,16 @@
         },
         {
           "factor": "Volatility 30D",
-          "impact": -3.2551205288199228,
+          "impact": -3.2832595367407573,
           "severity": "Medium"
         }
       ],
       "news_events": [
         {
-          "title": "WMT announces earnings",
-          "impact": 0.07404570502419561,
-          "category": "operational",
-          "date": "2025-08-21T17:26:24.352262"
-        },
-        {
-          "title": "WMT reports strong partnership",
-          "impact": -0.6141686438441307,
-          "category": "regulatory",
-          "date": "2025-08-16T17:26:24.352408"
+          "title": "WMT announces operational",
+          "impact": 0.5655662891358026,
+          "category": "earnings",
+          "date": "2025-08-22T08:51:39.134530"
         }
       ]
     }
@@ -1366,6 +1354,6 @@
     "features_count": 24,
     "training_samples": 40,
     "validation_split": 0.2,
-    "epochs_trained": 131
+    "epochs_trained": 121
   }
 }

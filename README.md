@@ -23,7 +23,7 @@ We built a neural network that analyzes companies like Apple, Microsoft, Google,
 
 ## ✨ Key Features
 
-- 🤖 **4-Layer Neural Network** with 92.3% accuracy 
+- 🤖 **4-Layer Neural Network** with 92.3% accuracy
 - 📊 **Real-Time Data** from Yahoo Finance + News APIs
 - 📰 **News Integration** - detects events like "debt restructuring" instantly
 - 🎯 **Explainable AI** - shows exactly WHY each score was assigned (no black boxes!)
@@ -231,13 +231,13 @@ neural-credit-platform/
 
 ### **For Anyone Using This:**
 - ✅ **Everything works** - neural network trained and tested
-- ✅ **Real data** - live financial information from Yahoo Finance  
+- ✅ **Real data** - live financial information from Yahoo Finance
 - ✅ **No secrets** - all AI decisions are explained clearly
 - ✅ **Easy to run** - just install requirements and run streamlit
 - ✅ **Professional quality** - suitable for business use
 
 ### **About Demo URLs:**
-Due to hackathon time constraints, public tunnel URLs (like ngrok/localtunnel) change each time. 
+Due to hackathon time constraints, public tunnel URLs (like ngrok/localtunnel) change each time.
 **Video demonstration and screenshots provided for evaluation.**
 **Local testing works perfectly every time.**
 
@@ -265,9 +265,9 @@ Due to hackathon time constraints, public tunnel URLs (like ngrok/localtunnel) c
 
 ## 🤝 Contact & Support
 
-**Built by:** Kanishka Kashyap  
-**Email:** kanishka.work28@gmail.com 
-**GitHub:** https://github.com/kanishka18-bee  
+**Built by:** Kanishka Kashyap
+**Email:** kanishka.work28@gmail.com
+**GitHub:** https://github.com/kanishka18-bee
 
 ### **Questions?**
 - Check the code comments - everything is explained
@@ -287,7 +287,7 @@ MIT License - feel free to use this code for learning, business, or any other pu
 
 This project shows how **modern AI can make finance better** by providing:
 - **Faster insights** (minutes instead of months)
-- **Clear explanations** (no mysterious black boxes)  
+- **Clear explanations** (no mysterious black boxes)
 - **Real-time updates** (reacts to news immediately)
 - **Professional tools** (actually usable by analysts)
 
@@ -297,6 +297,6 @@ This project shows how **modern AI can make finance better** by providing:
 
 ---
 
-**Last updated:** August 22, 2025  
-**Built for:** CredTech Hackathon 2025  
-**Total development time:** 10 hours  
+**Last updated:** August 22, 2025
+**Built for:** CredTech Hackathon 2025
+**Total development time:** 10 hours
